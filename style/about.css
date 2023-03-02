@@ -1,0 +1,216 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  text-decoration: none;
+  font-family: cursive;
+}
+body{
+   background-color:#0090c4;
+   min-width: 280px;
+}
+.btn-primary {
+  background-color: #6c63ff;
+  border-color: #a163ff;
+  
+}
+.btn-primary:hover {
+  background-color: #524fff;
+  border-color: #524fff;
+}
+/* navbar */
+.navbar {
+  min-width: 280px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.logo{
+  width: 180px;
+  height: 70px;
+ } 
+.nav-link {
+padding: 5px;
+font-size: 1.5rem;
+}
+.nav-item {
+padding-left: 15px;
+}
+@media (max-width: 500px) {
+  .logo{
+    width: 100px;
+    height: 65px;
+  }
+}
+/* header */
+header{
+  height: 400px;
+}
+.margin{
+  padding: 10px;
+  margin: 10px;
+}
+
+section{
+  margin: 30px;
+}
+
+header div h1{
+  margin-top: 35px;
+  font-size: 50px;
+}
+header div p{
+  font-size: 18px;
+}
+@media (max-width: 500px) {
+  header div h1{
+    margin-top: 130px;
+    font-size: 40px;
+  }
+  header div p{
+    font-size: 14px;
+  }
+  }
+  /* section */
+  .vpn-service {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+    align-items: center;
+  }
+  .vpn-service h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .vpn-service p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .vpn-service ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .vpn-service img {
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  @media  (max-width: 768px) {
+    .vpn-service .row {
+      flex-direction: column-reverse;
+    }
+    .vpn-service img {
+      margin: 10px auto;
+    }
+  }
+/* section1 */
+.shadow{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+/* section */
+.Contact-us{
+  background-color: #f7f7f7;
+  padding: 30px 0;
+}
+.form-control{
+  min-height: 50px;
+  max-height: 200px;
+}
+.color-black{
+  color: black;
+}
+
+/* section 2 */
+
+.section-questions{
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#accordion {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+.question-box{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.card {
+  margin-bottom: 10px;
+}
+
+.card-header {
+  background-color: #f0f0f0;
+}
+
+.card-link {
+  display: block;
+  font-weight: bold;
+  padding: 10px
+}
+@media (max-width: 600px) {
+  .section-questions{
+    height:800px;
+  }
+}
+/* footer */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 50px 50px 20px 50px;
+  width: 100%;
+}
+.footer-h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.contact-icon {
+  margin-right: 10px;
+}
+.Contact-links{
+  color:white;
+}
+.Contact-links:hover{
+  color:white;
+}
+.footer-active{
+  text-decoration: underline;
+}
+.col-md-6 ul{
+  margin:0px;
+}
+.col-md-6 ul li{
+  list-style: none;
+}
+.col-md-6 ul li a {
+  color: #ffffff;
+}
+footer div div form div input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.social-icon{
+  color: #6c63ff; 
+}
+.social-icon:hover{
+  color:#524fff;
+  text-decoration: none;
+}
+.minimargin{
+  margin: 0px 0px 20px 0px;
+}
+footer div div form div a{
+  margin: 0px 5px;
+}
+footer .copyright {
+  font-size: 14px;
+  color: #777;
+  margin-top: 20px;
+}
